@@ -1,18 +1,18 @@
 import React from 'react'
 
-const ActionButtons = (props) =>
+const ActionButtons = ({setCurAction}) =>
   <div>
     <div>
-      <button>+</button>
+      <button onClick={setCurAction.bind(null, '+')}>+</button>
     </div>
     <div>
-      <button>-</button>
+      <button onClick={setCurAction.bind(null, '-')}>-</button>
     </div>
     <div>
-      <button>*</button>
+      <button onClick={setCurAction.bind(null, '*')}>*</button>
     </div>
     <div>
-      <button>/</button>
+      <button onClick={setCurAction.bind(null, '/')}>/</button>
     </div>
   </div>
 

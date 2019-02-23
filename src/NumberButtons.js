@@ -21,7 +21,7 @@ const NumberButtons = ({keypadOnClick, calculate}) =>
       <button
         className='button-zero'
         onClick={keypadOnClick.bind(null, '0')}>0</button>
-      <button onClick={calculate}>{'='}</button>
+      <button onClick={calculate.bind()}>{'='}</button>
     </div>
   </div>
 

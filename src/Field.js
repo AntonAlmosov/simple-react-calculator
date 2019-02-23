@@ -2,7 +2,7 @@ import React from 'react'
 
 const Field = ({inputField, onClick}) =>
   <div className='inputfield-wrapper'>
-    <span>{inputField}</span>
+    <span>{inputField.toString().slice(0,5)}</span>
     <button onClick={onClick}>AC</button>
   </div>
 

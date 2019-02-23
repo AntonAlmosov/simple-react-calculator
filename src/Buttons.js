@@ -6,7 +6,7 @@ import NumberButtons from './NumberButtons'
 const Buttons = (props) =>
   <div className='buttons-wrapper'>
     <NumberButtons {...props}/>
-    <ActionButtons />
+    <ActionButtons {...props}/>
   </div>
 
 export default Buttons
