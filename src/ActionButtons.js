@@ -1,7 +1,7 @@
 import React from 'react'
 
 const ActionButtons = ({setCurAction}) =>
-  <div>
+  <div className='action-buttons'>
     <div>
       <button onClick={setCurAction.bind(null, '+')}>+</button>
     </div>

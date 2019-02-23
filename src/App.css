@@ -1,20 +1,33 @@
 body{
   font-family: 'Inter';
-  font-size: 20px;
 }
 span{
-  width: 100px;
+  box-sizing: border-box;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #D6D8DB;
 }
 button{
   outline: none;
+  border: 1px solid #D6D8DB;
+  background-color: #A2A6AC;
+  font-size: 25px;
 }
 
 .inputfield-wrapper{
   display: flex;
-  width: 200px;
+  width: 440px;
 }
-.inputfield-wrapper input{
-  width: 170px;
+.inputfield-wrapper span{
+  width: 330px;
+  height: 110px;
+}
+.inputfield-wrapper button{
+  width: 110px;
+  height: 110px;
+  background-color: #D6D8DB;
 }
 
 .buttons-wrapper{
@@ -22,4 +35,29 @@ button{
 }
 .button-zero{
   width: 66%;
+}
+
+.keypad{
+  width: 330px;
+}
+
+.keypad-row button {
+  width: calc(330px/3);
+  height: calc(330px/3);
+}
+
+.button-zero {
+  width: 220px;
+  height: 110px;
+}
+.button-calculate{
+  width: 110px;
+  height: 110px;
+  background-color: #F58B00;
+}
+
+.action-buttons button{
+  width: 110px;
+  height: 110px;
+  background-color: #F58B00;
 }
